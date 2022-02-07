@@ -120,4 +120,10 @@ function new(key)
 	return r	
 end
 
-return {make_byte_table, generate, cipher, schedule, new}
+return {
+['make_byte_table'] = make_byte_table, 
+['generate'] = generate, 
+['cipher'] = cipher, 
+['schedule'] = schedule, 
+['new'] = new
+}
